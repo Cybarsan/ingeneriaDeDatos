@@ -1,4 +1,4 @@
-# Tarea de la Clase 6 - Ingeniera de Datos
+# Tarea de la Clase 5 - Ingeniera de Datos
 
 Welcome to your new dbt project!
 
