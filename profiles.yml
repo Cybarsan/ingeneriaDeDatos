@@ -1,0 +1,9 @@
+mi_proyecto_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: "md:airbyte_curso"
+      extensions:
+        - motherduck
+      motherduck_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsYW4uc2FuaWVyQGdtYWlsLmNvbSIsIm1kUmVnaW9uIjoiYXdzLXVzLWVhc3QtMSIsInNlc3Npb24iOiJhbGFuLnNhbmllci5nbWFpbC5jb20iLCJwYXQiOiJ2dlFKTnI5UjAxelB3bnpqLWd2MDlmdlNIU0tjdlBiRlJycWhDbmhUNDVnIiwidXNlcklkIjoiZjYwZmEwOWEtYTk4My00YTY3LTk0MzEtMTVjYjUzY2EwNmE1IiwiaXNzIjoibWRfcGF0IiwicmVhZE9ubHkiOmZhbHNlLCJ0b2tlblR5cGUiOiJyZWFkX3dyaXRlIiwiaWF0IjoxNzc0MDUyODQzfQ.DiLeJvGM4b8zdViNsBV7wHm8I8Ux9OhCUHUGlhgP1nA"
+  target: dev
