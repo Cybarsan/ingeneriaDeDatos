@@ -1,7 +1,10 @@
 version: 2
+
 sources:
   - name: raw
     database: airbyte_curso
-    schema: pokemon
+    schema: main
     tables:
-      - name: pokemon
+      - name: orders
+      - name: customers
+      - name: products
