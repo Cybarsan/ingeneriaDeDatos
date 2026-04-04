@@ -14,10 +14,10 @@ AIRBYTE_HOST = os.getenv("AIRBYTE_HOST", "localhost")
 AIRBYTE_PORT = os.getenv("AIRBYTE_PORT", "8000")
 AIRBYTE_USERNAME = os.getenv("AIRBYTE_USERNAME", "airbyte")
 AIRBYTE_PASSWORD = os.getenv("AIRBYTE_PASSWORD", "password")
-AIRBYTE_CONNECTION_ID = os.getenv("AIRBYTE_CONNECTION_ID")
+AIRBYTE_CONNECTION_ID = os.getenv("6e437cb3-d657-435f-b47a-a8821408e57d")
 DBT_PROJECT_DIR = Path(os.getenv("DBT_PROJECT_DIR", "/Users/HP_Touch/mi_proyecto_dbt"))
 DBT_PROFILES_DIR = Path(os.getenv("DBT_PROFILES_DIR", "/Users/HP_Touch/.dbt"))
-DBT_EXECUTABLE = "/Users/HP_Touch/dbt-env/bin/dbt"
+DBT_EXECUTABLE = "/Users/HP_Touch/dbt-env/"
 
 
 @task(name="Extract and Load with Airbyte", retries=2, retry_delay_seconds=30)
